@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(90, 90, 90));
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(196, 196, 196);
+    
+}
+
+a{
+    color: white;
+    
+}
+
+.cabeçalho{
+    padding: 3px;
+    text-align: left;
+    text-decoration: solid;
+    font-size: 3rem;
+    
+}
+
+.corfonte{
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    background-color: rgb(15, 15, 15);
+    padding: 2rem;
+    margin-right: 2rem; 
+    width: 9%;
+}
+
+.itemmenu{
+    padding: 0.5rem;
+    margin: 0.0rem 0rem 0rem 0rem;
+    
+}
+.itemmenu2{
+    padding: 0.5rem;
+    margin: 0.0rem 0rem 0rem 0rem;
+    
+}
+
+.conteudo{
+    padding: 0.6rem;
+    width: 70%;
+}
+
+.itemmenu:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+section{
+    margin-top: 2rem;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(90, 90, 90));
+    margin-top: 5rem;
+}
+
+img{
+    border-radius: 50rem;
+}
